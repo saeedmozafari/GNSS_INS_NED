@@ -39,6 +39,6 @@ C31 = sin_phi * sin_psi + cos_phi * sin_theta * cos_psi;
 C32 = -sin_phi * cos_psi + cos_phi * sin_theta * sin_psi;
 C33 = cos_phi * cos_theta;
 
-CC = [C11,C12,C13;C21,C22,C23;C31,C32,C33];
+C = [C11,C12,C13;C21,C22,C23;C31,C32,C33];
 
 % Ends
